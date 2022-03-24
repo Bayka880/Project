@@ -32,7 +32,7 @@ header h1 {
 }
 #search {
   width: 170px;
-  height: 30px;
+  height: 20px;
   border: 1px solid #fbc5a6;
   margin-top: 10px;
   border-radius: 10px;
@@ -40,7 +40,7 @@ header h1 {
   background-repeat: no-repeat;
   background-size: 15px;
   background-position: center left;
-  padding: 13px;
+  padding: 20px;
 }
 .item1,
 .item2,
@@ -54,8 +54,11 @@ header h1 {
 }
 .item4 a {
   color: #f17228;
-  padding: 10px;
+  padding: 20px;
 }
-.item2 {
-  justify-content: space-around;
+.item2 a {
+  padding: 20px;
+}
+.item4 img {
+  padding: 0px;
 }
