@@ -1,0 +1,40 @@
+.card {
+  border: solid 1px rgb(255, 254, 254);
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+}
+.price {
+  display: flex;
+  line-height: 5px;
+}
+.price p:last-child {
+  text-decoration: line-through;
+  padding-left: 10px;
+  font-weight: 400;
+}
+.price p:first-child {
+  color: #f17228;
+  font-weight: 600;
+}
+.foodname {
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.image {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.image p {
+  background: #f17228;
+  border-radius: 0px 8px 0px 20px;
+  position: absolute;
+  width: 75px;
+  height: 45px;
+  margin-top: 0;
+  color: white;
+  font-family: "Poppins";
+  font-weight: 600;
+  padding: 15px;
+}

@@ -31,8 +31,8 @@ header h1 {
   color: #000000;
 }
 #search {
-  width: 170px;
-  height: 20px;
+  width: 250px;
+  height: 10px;
   border: 1px solid #fbc5a6;
   margin-top: 10px;
   border-radius: 10px;
@@ -40,7 +40,7 @@ header h1 {
   background-repeat: no-repeat;
   background-size: 15px;
   background-position: center left;
-  padding: 20px;
+  padding: 15px;
 }
 .item1,
 .item2,
