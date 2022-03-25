@@ -16,10 +16,12 @@
 .price p:first-child {
   color: #f17228;
   font-weight: 600;
+  padding-left: 10px;
 }
 .foodname {
   font-weight: 600;
   font-family: "Poppins";
+  padding-left: 10px;
 }
 
 .image {
@@ -37,4 +39,10 @@
   font-family: "Poppins";
   font-weight: 600;
   padding: 15px;
+}
+.pricetag {
+  color: #f17228;
+  font-weight: 600;
+  line-height: 5px;
+  padding-left: 10px;
 }

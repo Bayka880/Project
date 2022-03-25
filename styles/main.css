@@ -7,7 +7,7 @@
 .slideInfo {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding-top: 50px;
 }
 .slideInfo img:last-child {
   position: absolute;
@@ -35,6 +35,17 @@ h2 {
 hr {
   border: 2px solid rgba(241, 114, 40, 0.6);
 }
+.rigthSec {
+  display: flex;
+}
+.rigthSecname {
+  padding-right: 150px;
+}
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 #button {
   position: absolute;
   background: rgba(255, 255, 255, 0.5);
@@ -44,7 +55,6 @@ hr {
   height: 40px;
   color: #f17228;
   border: 0ch;
-  margin-top: -100px;
 }
 .feathers {
   display: flex;
@@ -53,11 +63,9 @@ hr {
   padding: 20px;
   justify-content: space-around;
   border-radius: 30px;
-  background: rgba(255, 255, 255, 0.1);
+  background: white;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
-
-  margin: auto;
-  margin-top: 30px;
+  height: 160px;
 }
 .featherSec {
   display: flex;
@@ -102,4 +110,13 @@ h3 {
   font-size: 14px;
   font-family: "Poppins";
   border: solid 1px;
+}
+.backroundPicture {
+  background: linear-gradient(
+    179.24deg,
+    #f6dbcc -90.18%,
+    rgba(255, 255, 255, 0) 41.19%
+  );
+  padding-top: 50px;
+  padding-bottom: 200px;
 }

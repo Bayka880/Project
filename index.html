@@ -39,12 +39,16 @@
           <input type="text" id="search" placeholder="Хайх" />
         </div>
         <div class="item4">
-          <img src="./images/busket icon.png" alt="busket" /><a href="#сагс"
-            >Сагс</a
-          >
-          <img src="./images/user icon.png" alt="login" /><a href="#Нэвтрэх"
-            >Нэвтрэх</a
-          >
+          <div id="itm">
+            <img src="./images/busket icon.png" alt="busket" /><a href="#сагс"
+              >Сагс</a
+            >
+          </div>
+          <div>
+            <img src="./images/user icon.png" alt="login" /><a href="#Нэвтрэх"
+              >Нэвтрэх</a
+            >
+          </div>
         </div>
       </div>
     </header>
@@ -55,17 +59,20 @@
           <img src="./images/deedtalin.png" alt="ramen" />
         </div>
         <div class="rigthSec">
-          <h2>Mstars Food delivery</h2>
-          <hr />
-          <p>Хосгүй амтыг хормын дотор хүргэж өгнө.</p>
+          <div class="rigthSecname">
+            <h2>Mstars Food delivery</h2>
+            <hr />
+            <p>Хосгүй амтыг хормын дотор хүргэж өгнө.</p>
+          </div>
           <div class="btn">
             <input id="button" type="button" value="&#8594;" />
           </div>
         </div>
       </div>
     </div>
-    <div class="contents">
-      <div class="feathers">
+
+    <div class="backroundPicture">
+      <div class="contents feathers">
         <div class="featherSec">
           <img src="./images_svg/delivery1.svg" alt="clock" />
           <div class="secT">
@@ -88,68 +95,136 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="contents">
-      <div class="category">
-        <div class="section1">
-          <h3>Хямдралтай</h3>
-          <input class="button" type="button" value="Бүгдийг харах >" />
-        </div>
-        <div class="section2">
-          <div class="card">
-            <div class="image">
-              <p>30%</p>
-              <img src="./images/icecream.png" alt="icecream" />
+      <div class="contents">
+        <div class="category">
+          <div class="section1">
+            <h3>Хямдралтай</h3>
+            <input class="button" type="button" value="Бүгдийг харах >" />
+          </div>
+          <div class="section2">
+            <div class="card">
+              <div class="image">
+                <p>30%</p>
+                <img src="./images/icecream.png" alt="icecream" />
+              </div>
+              <div class="foodname"><p>Зайрмаг</p></div>
+              <div class="price">
+                <p>4760₮</p>
+                <p>6800₮</p>
+              </div>
             </div>
-            <div class="foodname"><p>Зайрмаг</p></div>
-            <div class="price">
-              <p>4760₮</p>
-              <p>6800₮</p>
+            <div class="card">
+              <div class="image">
+                <p>20%</p>
+                <img src="./images/pancake.png" alt="breakfast" />
+              </div>
+              <div class="foodname"><p>Панкейк</p></div>
+              <div class="price">
+                <p>4800₮</p>
+                <p>6800₮</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="image">
+                <p>20%</p>
+                <img src="./images/breakfast.png" alt="breakfast" />
+              </div>
+              <div class="foodname"><p>Өглөөний хоол</p></div>
+              <div class="price">
+                <p>4800₮</p>
+                <p>6800₮</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="image">
+                <p>20%</p>
+                <img src="./images/bananas.png" alt="banana" />
+              </div>
+              <div class="foodname"><p>Банана сэндвич</p></div>
+              <div class="price">
+                <p>4800₮</p>
+                <p>6800₮</p>
+              </div>
             </div>
           </div>
-          <div class="card">
-            <div class="image">
-              <p>20%</p>
-              <img src="./images/pancake.png" alt="breakfast" />
+          <div class="section1">
+            <h3>Үндсэн хоол</h3>
+            <input class="button" type="button" value="Бүгдийг харах >" />
+          </div>
+          <div class="section2">
+            <div class="card">
+              <img src="./images/salmon.png" alt="salmon" />
+              <div class="foodname"><p>Салмон загас</p></div>
+              <div class="pricetag"><p>11,800₮</p></div>
             </div>
-            <div class="foodname"><p>Панкейк</p></div>
-            <div class="price">
-              <p>4800₮</p>
-              <p>6800₮</p>
+            <div class="card">
+              <img src="./images/meatball.png" alt="meat" />
+              <div class="foodname"><p>Бөөрөнхий мах</p></div>
+              <div class="pricetag"><p>14,000₮</p></div>
+            </div>
+            <div class="card">
+              <img src="./images/peanut.png" alt="peanut" />
+              <div class="foodname"><p>Самрын нухаш</p></div>
+              <div class="pricetag"><p>9,800₮</p></div>
+            </div>
+            <div class="card">
+              <img src="./images/burger.png" alt="burger" />
+              <div class="foodname"><p>Чикен бургер</p></div>
+              <div class="pricetag"><p>14,000₮</p></div>
             </div>
           </div>
-          <div class="card">
-            <div class="image">
-              <p>20%</p>
-              <img src="./images/breakfast.png" alt="breakfast" />
+          <div class="section1">
+            <h3>Салад ба зууш</h3>
+            <input class="button" type="button" value="Бүгдийг харах >" />
+          </div>
+          <div class="section2">
+            <div class="card">
+              <img src="./images/salad.png" alt="salad" />
+              <div class="foodname"><p>Детокс салад</p></div>
+              <div class="pricetag"><p>6,800₮</p></div>
             </div>
-            <div class="foodname"><p>Өглөөний хоол</p></div>
-            <div class="price">
-              <p>4800₮</p>
-              <p>6800₮</p>
+            <div class="card">
+              <img src="./images/saladkobb.png" alt="salad" />
+              <div class="foodname"><p>Кобб салад</p></div>
+              <div class="pricetag"><p>6,800₮</p></div>
+            </div>
+            <div class="card">
+              <img src="./images/saladavacado.png" alt="salad" />
+              <div class="foodname"><p>Авакадо салад</p></div>
+              <div class="pricetag"><p>6,800₮</p></div>
+            </div>
+            <div class="card">
+              <img src="./images/sendvich.png" alt="sendwich" />
+              <div class="foodname"><p>Чикен бургер</p></div>
+              <div class="pricetag"><p>4,800₮</p></div>
             </div>
           </div>
-          <div class="card">
-            <div class="image">
-              <p>20%</p>
-              <img src="./images/bananas.png" alt="banana" />
+          <div class="section1">
+            <h3>Амттан</h3>
+            <input class="button" type="button" value="Бүгдийг харах >" />
+          </div>
+          <div class="section2">
+            <div class="card">
+              <img src="./images/donuts.png" alt="donuts" />
+              <div class="foodname"><p>Донатс</p></div>
+              <div class="pricetag"><p>5,800₮</p></div>
             </div>
-            <div class="foodname"><p>Банана сэндвич</p></div>
-            <div class="price">
-              <p>4800₮</p>
-              <p>6800₮</p>
+            <div class="card">
+              <img src="./images/oreodessert.png" alt="oreodessert" />
+              <div class="foodname"><p>Орео дессерт</p></div>
+              <div class="pricetag"><p>7,800₮</p></div>
+            </div>
+            <div class="card">
+              <img src="./images/vavli.png" alt="vavli" />
+              <div class="foodname"><p>Вафли</p></div>
+              <div class="pricetag"><p>5,800₮</p></div>
+            </div>
+            <div class="card">
+              <img src="./images/makron.png" alt="makron" />
+              <div class="foodname"><p>Макарон</p></div>
+              <div class="pricetag"><p>3,800₮</p></div>
             </div>
           </div>
-        </div>
-        <div class="section1">
-          <h3>Үндсэн хоол</h3>
-          <input class="button" type="button" value="Бүгдийг харах >" />
-        </div>
-        <div class="section2">
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
         </div>
       </div>
     </div>
