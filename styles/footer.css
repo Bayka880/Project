@@ -13,30 +13,31 @@ footer h1 {
   font-family: "Poppins";
   color: #fdfdfd;
   padding: 10px;
-  margin-top: 0;
+}
+@media (max-width: 1050px) {
+  footer h1 {
+    font-size: 16px;
+  }
 }
 .footer {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
 }
-.foot1,
-.foot2 {
+.foot {
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 .foot2 {
   display: flex;
   flex-direction: column;
   line-height: 40px;
-  margin-top: 20px;
+  justify-content: center;
   padding-left: 200px;
 }
 .foot3 {
   line-height: 25px;
-  margin-top: 30px;
-  padding-left: 100px;
+  text-align: center;
+  padding-left: 50px;
 }
 .foot2 a {
   color: #fdfdfd;
@@ -76,4 +77,11 @@ footer hr {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+@media (max-width: 1050px) {
+  .foot2 a,
+  .foot3 a,
+  .foot3 p {
+    font-size: 14px;
+  }
 }

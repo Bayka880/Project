@@ -46,3 +46,29 @@
   line-height: 5px;
   padding-left: 10px;
 }
+@media (max-width: 1050px) {
+  .image p {
+    width: 30px;
+    height: 13px;
+    border-radius: 0px 8px 0px 5px;
+    position: absolute;
+    padding: 15px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 1050px) {
+  .foodname {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1050px) {
+  .price,
+  .pricetag {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1050px) {
+  .category img {
+    width: 140px;
+  }
+}

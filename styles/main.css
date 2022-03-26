@@ -56,6 +56,52 @@ hr {
   color: #f17228;
   border: 0ch;
 }
+@media (max-width: 1050px) {
+  .slideInfo {
+    margin-right: -100px;
+  }
+}
+@media (max-width: 1050px) {
+  .slideInfo img:last-child {
+    position: absolute;
+    margin-left: -130px;
+    margin-top: 30px;
+    width: 250px;
+  }
+  @media (max-width: 1050px) {
+    .slideInfo img:first-child {
+      width: 250px;
+    }
+  }
+}
+@media (max-width: 1050px) {
+  h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1050px) {
+  #slider p {
+    font-size: 18px;
+    width: 250px;
+    margin-left: 120px;
+  }
+}
+@media (max-width: 1050px) {
+  .rigthSecname hr {
+    width: 250px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 1050px) {
+  .rigthSec {
+    justify-items: right;
+  }
+}
+@media (max-width: 1050px) {
+  #button {
+    display: none;
+  }
+}
 .feathers {
   display: flex;
   flex-direction: row;
@@ -84,6 +130,28 @@ hr {
 .featherSec p:first-child {
   font-weight: 400;
 }
+@media (max-width: 1050px) {
+  .feathers img {
+    width: 40px;
+  }
+}
+@media (max-width: 1050px) {
+  .feathers {
+    border-radius: none;
+    background: none;
+    box-shadow: none;
+  }
+}
+@media (max-width: 1050px) {
+  .feathers p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1050px) {
+  .backroundPicture {
+    padding-top: 10px;
+  }
+}
 .section1 {
   display: flex;
   justify-content: space-between;
@@ -111,6 +179,7 @@ h3 {
   font-family: "Poppins";
   border: solid 1px;
 }
+
 .backroundPicture {
   background: linear-gradient(
     179.24deg,
@@ -119,4 +188,57 @@ h3 {
   );
   padding-top: 50px;
   padding-bottom: 200px;
+}
+@media (max-width: 1050px) {
+  h3 {
+    font-size: 16px;
+  }
+}
+
+#email,
+#user_pass {
+  border-radius: 20px;
+  border: solid 1px coral;
+  width: 360px;
+  height: 40px;
+  padding-left: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  font-family: "Poppins";
+  font-weight: 250;
+  font-size: 15px;
+  line-height: 50px;
+}
+#buttonLogin {
+  border-radius: 20px;
+  border: solid 1px coral;
+  width: 360px;
+  font-size: 15px;
+  font-family: "Poppins";
+  font-weight: 500;
+  padding: 20px;
+  margin-top: 50px;
+  background: white;
+}
+form span {
+  color: #828282;
+  text-decoration: underline;
+  text-align: center;
+}
+.loginSec {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginSec p {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins";
+  margin-left: -280px;
 }
