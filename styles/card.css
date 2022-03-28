@@ -49,11 +49,15 @@
 @media (max-width: 1050px) {
   .image p {
     width: 30px;
-    height: 13px;
+    height: 20px;
     border-radius: 0px 8px 0px 5px;
     position: absolute;
-    padding: 15px;
+    display: flex;
     font-size: 14px;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    justify-content: center;
   }
 }
 @media (max-width: 1050px) {
@@ -68,7 +72,7 @@
   }
 }
 @media (max-width: 1050px) {
-  .category img {
+  .section2 img {
     width: 140px;
   }
 }

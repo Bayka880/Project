@@ -33,11 +33,25 @@ footer h1 {
   line-height: 40px;
   justify-content: center;
   padding-left: 200px;
+  margin-top: 30px;
+}
+@media (max-width: 1050px) {
+  .foot2 a,
+  .foot3 a,
+  .foot p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1050px) {
+  .foot2 {
+    padding-left: 70px;
+  }
 }
 .foot3 {
   line-height: 25px;
   text-align: center;
-  padding-left: 50px;
+  padding-left: 70px;
+  margin-top: 40px;
 }
 .foot2 a {
   color: #fdfdfd;
@@ -83,5 +97,44 @@ footer hr {
   .foot3 a,
   .foot3 p {
     font-size: 14px;
+  }
+}
+@media (max-width: 1050px) {
+  .authorInfo {
+    display: block;
+  }
+}
+@media (max-width: 1050px) {
+  .underInfo p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1050px) {
+  .socailInfo,
+  .serviceInfo,
+  .privacyInfo {
+    padding-left: 100px;
+  }
+}
+@media (max-width: 1050px) {
+  .authorInfo {
+    padding-left: 700px;
+    line-height: 10px;
+    margin-top: -30px;
+  }
+}
+@media (max-width: 1050px) {
+  .underInfo {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1050px) {
+  #underline {
+    margin-top: 80px;
+  }
+}
+@media (max-width: 1050px) {
+  .foot {
+    padding-left: 50px;
   }
 }

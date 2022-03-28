@@ -103,3 +103,27 @@ header h1 {
     font-weight: 500;
   }
 }
+#searchIcon {
+  display: none;
+}
+@media (max-width: 1050px) {
+  #searchIcon {
+    display: inline;
+    margin-top: 20px;
+    padding-left: 40px;
+  }
+}
+
+#menuicon {
+  display: none;
+}
+@media (max-width: 700px) {
+  #menuicon {
+    display: inline;
+  }
+}
+@media (max-width: 700px) {
+  .item1 img {
+    width: 25px;
+  }
+}
