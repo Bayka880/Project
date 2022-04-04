@@ -14,7 +14,7 @@
   margin-left: -200px;
   margin-top: 30px;
 }
-h2 {
+.rigthside h2 {
   font-size: 55px;
   font-family: "Poppins";
   color: #f17228;
@@ -23,7 +23,7 @@ h2 {
   letter-spacing: 0.01em;
   width: 384px;
 }
-#slider p {
+.rigthside p {
   color: #4d2000;
   font-family: "Comfortaa";
   letter-spacing: 0.01em;
@@ -32,7 +32,7 @@ h2 {
   width: 384px;
   font-size: 22px;
 }
-hr {
+.rigthside hr {
   border: 2px solid rgba(241, 114, 40, 0.6);
 }
 .rigthSec {
@@ -358,4 +358,67 @@ form span {
   display: flex;
   margin-left: 20%;
   margin-right: 37%;
+}
+
+.slideimage img:last-child {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: -180px;
+}
+.carousel-item:first-child {
+  background-image: url(/images/base.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carousel-item:nth-child(2) {
+  background-image: url(/images/banner3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carousel-item:last-child {
+  background-image: url(/images/banner\ image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carousel-item {
+  height: 500px;
+}
+.carousel-item #slide3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  color: white;
+  text-align: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.slideimage {
+  display: flex;
+  justify-content: space-around;
+}
+.rigthside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.carousel-item #slide2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 10px rgba(251, 197, 166, 0.2);
+  border-radius: 30px;
 }
