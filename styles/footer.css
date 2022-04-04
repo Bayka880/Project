@@ -48,7 +48,7 @@ footer h1 {
   }
 }
 .foot3 {
-  line-height: 25px;
+  line-height: 32px;
   text-align: center;
   padding-left: 70px;
   margin-top: 40px;
@@ -138,3 +138,72 @@ footer hr {
     padding-left: 50px;
   }
 }
+#foot23 {
+  display: flex;
+}
+
+/* Mobile version footer CSS */
+@media (max-width: 700px) {
+  .footer:first-child {
+    display: inline;
+  }
+}
+@media (max-width: 700px) {
+  #foot23 {
+    display: flex;
+  }
+}
+@media (max-width: 700px) {
+  .authorInfo p:last-child {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  #socialInfopara {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .serviceInfo,
+  .privacyInfo,
+  .authorInfo {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 700px) {
+  .authorInfo {
+    margin-top: 0px;
+    text-align: end;
+  }
+}
+@media (max-width: 700px) {
+  .privacyInfo {
+    display: block;
+  }
+}
+@media (max-width: 700px) {
+  #logos {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .underInfo {
+    display: inline;
+  }
+}
+@media (max-width: 700px) {
+  #underline {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 700px) {
+  #logosVisible {
+    text-align: center;
+  }
+}
+@media (min-width: 701px) {
+  #logosVisible {
+    display: none;
+  }
+}
+/* Mobile version footer CSS */

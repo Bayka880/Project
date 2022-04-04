@@ -40,11 +40,14 @@ hr {
 }
 .rigthSecname {
   padding-right: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .btn {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 #button {
   position: absolute;
@@ -56,7 +59,7 @@ hr {
   color: #f17228;
   border: 0ch;
 }
-
+/*|| Tablet versoin*/
 @media (max-width: 1050px) {
   .rigthSecname {
     padding-right: 1px;
@@ -103,6 +106,51 @@ hr {
     display: none;
   }
 }
+/* Mobile versoin slideInfo CSS */
+@media (max-width: 700px) {
+  .slideInfo img:last-child {
+    position: absolute;
+    width: 125px;
+    margin-left: -60px;
+    margin-top: 6px;
+  }
+}
+
+@media (max-width: 700px) {
+  .slideInfo img:first-child {
+    width: 110px;
+  }
+}
+@media (max-width: 700px) {
+  h2 {
+    font-size: 22px;
+    width: 153px;
+  }
+}
+@media (max-width: 700px) {
+  #slider p {
+    font-size: 12px;
+    width: 150px;
+    margin-left: 1px;
+  }
+}
+@media (max-width: 700px) {
+  .rigthSecname hr {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .rigthSecname {
+    text-align: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 700px) {
+  .slideInfo {
+    height: 250px;
+  }
+}
+/* Mobile versoin slideInfo CSS*/
 .feathers {
   display: flex;
   flex-direction: row;
@@ -124,7 +172,8 @@ hr {
 }
 .featherSec {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   line-height: 5px;
 }
 .secT {
@@ -161,6 +210,27 @@ hr {
     padding-top: 10px;
   }
 }
+/* Mobile version feathers section CSS */
+@media (max-width: 700px) {
+  #featherbackround {
+    background: url(../images_svg/base.feature.svg);
+    background-size: 375px;
+    padding: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .feathers {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+}
+@media (max-width: 700px) {
+  .secT p:last-child {
+    font-size: 12px;
+  }
+}
+/* Mobile version feathers section CSS */
 .section1 {
   display: flex;
   justify-content: space-between;
@@ -169,12 +239,16 @@ hr {
 .section2 {
   display: flex;
   justify-content: space-between;
+  padding-top: 50px;
 }
 h3 {
   font-family: "Poppins";
   font-weight: 700;
   font-size: 20px;
   padding-left: 10px;
+  padding-top: 10px;
+  align-items: center;
+  line-height: normal !important;
 }
 .button {
   border-radius: 20px;
@@ -217,7 +291,14 @@ h3 {
     font-size: 16px;
   }
 }
-
+/* Mobile version card section CSS */
+@media (max-width: 700px) {
+  .card1:nth-child(3),
+  .card1:nth-child(4) {
+    display: none;
+  }
+}
+/* Mobile version card section CSS */
 #email,
 #user_pass {
   border-radius: 20px;
@@ -263,7 +344,7 @@ form span {
   font-size: 18px;
   font-weight: 600;
   font-family: "Poppins";
-  margin-left: -280px;
+  padding-left: 10px;
 }
 .rectanlePic {
   display: flex;
@@ -272,4 +353,9 @@ form span {
   color: #f17228;
   border: none;
   background: #828282;
+}
+.logingRectangle {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 37%;
 }

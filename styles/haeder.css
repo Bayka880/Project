@@ -34,7 +34,7 @@ header h1 {
   width: 250px;
   height: 30px;
   border: 1px solid #fbc5a6;
-  margin-top: 10px;
+  margin-top: 20px;
   border-radius: 10px;
   background: url(../images/.png);
   background-repeat: no-repeat;
@@ -48,6 +48,9 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.item4rigth {
+  display: contents;
 }
 .item1 img {
   width: 40px;
@@ -64,6 +67,11 @@ header h1 {
 }
 #itm {
   padding-right: 60px;
+}
+#item1second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media (max-width: 1050px) {
   header {
@@ -109,21 +117,53 @@ header h1 {
 @media (max-width: 1050px) {
   #searchIcon {
     display: inline;
-    margin-top: 20px;
-    padding-left: 40px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
   }
 }
-
+/* Mobile versoin CSS */
 #menuicon {
   display: none;
 }
 @media (max-width: 700px) {
   #menuicon {
     display: inline;
+    width: 20px;
   }
 }
 @media (max-width: 700px) {
   .item1 img {
     width: 25px;
   }
+}
+@media (max-width: 700px) {
+  #item1second h1 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 700px) {
+  .item2,
+  #itm {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  #searchicon {
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 700px) {
+  #item1second {
+    padding-left: 100px;
+  }
+}
+@media (max-width: 700px) {
+  #searchIcon img {
+    padding-left: 50px;
+  }
+}
+#dropdownMenuButton1 {
+  color: #f17228;
 }
