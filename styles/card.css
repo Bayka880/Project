@@ -63,7 +63,7 @@
     margin-top: 0px;
     justify-content: center;
   }
-  .card1 :nth-child(2) {
+  .card1 img {
     width: 140px;
   }
   .foodname {
@@ -77,25 +77,23 @@
     display: none;
   }
 }
-@media (min-width: 1051px) {
-  .card1 .hovver {
-    position: absolute;
-    width: 284px;
-    height: 301px;
-    background-color: rgba(0, 0, 0, 0.519);
-    margin: -15px;
-    z-index: 3;
-    opacity: 0;
-    border-radius: 10px;
-    transition: opacity 1s;
-  }
-  .card1 .hovver:hover {
-    opacity: 1;
-    transition: opacity 1s;
-  }
-  .hovver img {
-    position: absolute;
-    margin-top: 90px;
-    margin-left: 110px;
-  }
+.card1 .hovver {
+  position: absolute;
+  width: 284px;
+  height: 301px;
+  background-color: rgba(0, 0, 0, 0.519);
+  margin: -15px;
+  z-index: 3;
+  opacity: 0;
+  border-radius: 10px;
+  transition: opacity 1s;
+}
+.card1 .hovver:hover {
+  opacity: 1;
+  transition: opacity 1s;
+}
+.hovver img {
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 110px;
 }

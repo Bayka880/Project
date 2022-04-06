@@ -59,10 +59,51 @@
           <input type="text" id="search" placeholder="Хайх" />
         </div>
         <div class="item4">
-          <div id="itm">
+          <div
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            id="itm"
+          >
             <img src="./images/busket icon.png" alt="busket" /><a href="#сагс"
               >Сагс</a
             >
+          </div>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+              <p id="offcanvasRightLabel">Таны сагс</p>
+            </div>
+            <div
+              class="offcanvas-body d-flex flex-column justify-content-between"
+            >
+              <div class="row">
+                <div class="col ps-4">
+                  <img src="./images/offcanvaspic.png" alt="salmon" />
+                </div>
+                <div class="col ps-0">
+                  <div class="fw-bold">Салмон загас</div>
+                  <div class="pricetag pt-3 ps-0">11,800₮</div>
+                  <div class="pt-4">
+                    <input class="btnoffcanvasde" type="button" value="-" />
+                    <input class="numberbtnOffcanvas" type="number" />
+                    <input class="btnoffcanvasde" type="button" value="+" />
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <input class="btnoffcanvas" type="button" value="Захиалах" />
+              </div>
+            </div>
           </div>
           <div id="itmLogin">
             <a href="/pages/login.html"
@@ -181,8 +222,66 @@
           </div>
           <div class="section2">
             <div class="card1">
-              <div class="hovver">
-                <img src="./images_svg/Frame 440.svg" alt="busket" />
+              <div
+                class="hovver"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <img src="./images_svg/Frame 440.svg" alt="" />
+              </div>
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col ps-4 pb-4 pt-4">
+                          <img src="./images/mealhuluni zutan.png" alt="" />
+                        </div>
+                        <div class="col pt-4">
+                          <div class="row">
+                            <div class="col-lg-10 d-flex ps-0">
+                              <div class="col fw-bold">Хулууны зутан</div>
+                              <div class="col pt-2 pricetag">6800₮</div>
+                            </div>
+                            <div class="col">
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                          </div>
+                          <div class="row pt-4 fw-bold">Орц</div>
+                          <div class="row modaltext pt-2 ps-3">
+                            Хулуу, төмс,лууван,сонгино,цөцгийн тос,самрын үр
+                          </div>
+                          <div class="row pt-2 fw-bold">Тоо</div>
+                          <div class="row">
+                            <div class="col">
+                              <input class="btnModal" type="button" value="-" />
+                              <input class="numberbtn px-2" type="number" />
+                              <input class="btnModal" type="button" value="+" />
+                            </div>
+                          </div>
+                          <div class="row modalbusket">
+                            <input
+                              class="busketbtn"
+                              type="button"
+                              value="Сагслах"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="image">
                 <p>30%</p>
@@ -247,8 +346,66 @@
           </div>
           <div class="section2">
             <div class="card1">
-              <div class="hovver">
+              <div
+                class="hovver"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal1"
+              >
                 <img src="./images_svg/Frame 440.svg" alt="busket" />
+              </div>
+              <div
+                class="modal fade"
+                id="exampleModal1"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col ps-4 pb-4 pt-4">
+                          <img src="./images/salmonmodal.png" alt="" />
+                        </div>
+                        <div class="col pt-4">
+                          <div class="row">
+                            <div class="col-lg-10 d-flex ps-0">
+                              <div class="col fw-bold">Салмон загас</div>
+                              <div class="col ps-2 pt-2 pricetag">11,800₮</div>
+                            </div>
+                            <div class="col">
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                          </div>
+                          <div class="row pt-4 fw-bold">Орц</div>
+                          <div class="row modaltext pt-2 ps-3">
+                            Хулуу, төмс,лууван,сонгино,цөцгийн тос,самрын үр
+                          </div>
+                          <div class="row pt-2 fw-bold">Тоо</div>
+                          <div class="row">
+                            <div class="col">
+                              <input class="btnModal" type="button" value="-" />
+                              <input class="numberbtn px-2" type="number" />
+                              <input class="btnModal" type="button" value="+" />
+                            </div>
+                          </div>
+                          <div class="row modalbusket">
+                            <input
+                              class="busketbtn"
+                              type="button"
+                              value="Сагслах"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <img src="./images/salmon.png" alt="salmon" />
               <div class="foodname"><p>Салмон загас</p></div>
